@@ -1,0 +1,207 @@
+* {
+    margin: 5px;
+    background-color: beige;
+    color: tomato;
+}
+
+h1 {
+    background-color: yellow;
+    border-radius:6px;
+    border: 2px solid darkred;
+    display: flex;
+    text-shadow: 1px 1px 3px lightgreen;
+    flex-wrap: nowrap;
+}
+
+div {
+    display: inline-block;
+}
+a.Boxer {
+    text-decoration: none;
+}
+a.Nada {
+    text-decoration: none;
+}
+a.iloveoov {
+    text-decoration: none;
+}
+a.Flash {
+    text-decoration: none;
+}
+a.FanTaSy {
+    text-decoration: none;
+}
+a.Light {
+    text-decoration: none;
+}
+li a {
+    background-color: yellowgreen;
+    text-decoration: none;
+    color: gold;
+}
+.Symbol {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.Symbol:hover {
+    height: 70px;
+    width: 70px;
+    transition: .5s;
+}
+
+.outline {
+    border: 5px dashed red;
+    padding: 10px;
+}
+
+.history {
+    display: inline-block;
+    border: 5px dashed blue;
+    padding: 10px;
+    width: 45%;
+}
+
+.picture_Boxer {
+    display: none;
+    margin: -10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.picture_Nada {
+
+    display: none;
+    margin: -10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.picture_iloveoov {
+    display: none;
+    margin: -10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.picture_Flash {
+    display: none;
+    margin: -10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.picture_FanTaSy {
+    display: none;
+    margin: -10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.picture_Light {
+    display: none;
+    margin: -10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+a:hover {
+    border-radius: 4px;
+    color: red;
+    background-color: yellow;
+    transition: background .5s;
+}
+
+p a {
+    color: peru;
+    background-color: powderblue;
+}
+
+p a:hover {
+    border-radius: 4px;
+    color: violet;
+    background-color: teal;
+    transition: background .5s;
+}
+
+h2 {
+    border-radius: 6px;
+    border: 2px solid gray;
+    background-color: lavender;
+    display: inline-block;
+}
+
+h3 {
+    border-radius: 6px;
+    border: 2px solid gray;
+    background-color: lawngreen;
+    display: inline-block;
+}
+
+ul {
+    font-size: 25px;
+    border-radius: 6px;
+    border: 3px solid black;
+    background-color: yellowgreen;
+}
+
+li {
+    background-color: yellowgreen;
+    border-bottom: 1px dashed black;
+    color: chocolate;
+}
+
+p { 
+    background-color: powderblue;
+    border-radius: 4px;
+    border: 5px ridge green;
+}
+
+.space {
+    display: block;
+}
+
+section {
+    display: inline-block;
+    width: 45%;
+}
+
+button {
+    font-size: 20px;
+}
+
+.pictures {
+    display: inline-block;
+    width: 45%;
+    height: 200px;
+    background-color: white;
+}
+
+.picture_Boxer.active {
+    display: inline-block;
+}
+.picture_Nada.active {
+    display: inline-block;
+}
+.picture_iloveoov.active {
+    display: inline-block;
+}
+.picture_Flash.active {
+    display: inline-block;
+}
+.picture_FanTaSy.active {
+    display: inline-block;
+}
+.picture_Light.active {
+    display: inline-block;
+}
+@media screen and (max-width: 800px){
+    body {
+        display: none;
+    }
+    * {
+        height: 100%;
+        background: url('Starcraft.png') bottom / 130% no-repeat, url('Starcraft1.jpeg') center / 100% no-repeat, url('Starcraft2.jpg') top / 100% no-repeat;
+    }
+}
